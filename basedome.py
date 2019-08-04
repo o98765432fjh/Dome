@@ -21,8 +21,11 @@ class human:
         print(self.name + " sleeping")
 
 
-tom = human("KaiKai", "2012-12-15")
+tom = human("Tom", "2012-12-15")
 tom.gender = "fmale"
 print(tom.name, " is ", tom.age, " yeas old")
 tom.eat("rice")
 tom.sleep()
+
+rose = human("Rose", "1982-03-11")
+print(rose.name, " is ", rose.age, " yeas old")
